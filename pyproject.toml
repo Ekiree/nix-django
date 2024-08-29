@@ -1,0 +1,23 @@
+
+[tool.poetry]
+name = "nix-django"
+version = "0.1.0"
+description = "Opensource Djnago frameowrk build with Nix"
+authors = ["User <user@email.com>"]
+license = "GPL-3.0 license"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.11"
+django-localflavor = "4.0"
+django-libsql = "^0.1.3"
+mysqlclient = "^2.2.4"
+gunicorn = "^22.0.0"
+whitenoise = "6.6.0"
+Brotli = "1.1.0"
+boto3 = "1.34.157"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
